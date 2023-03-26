@@ -12,6 +12,8 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/api/brands")
 public class ProductController {
+
+    //ProductController <- (Bean implements ProductService)
     private final ProductService service;
 
     @GetMapping

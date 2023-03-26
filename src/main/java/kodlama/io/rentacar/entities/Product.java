@@ -1,12 +1,17 @@
 package kodlama.io.rentacar.entities;
 
-import jakarta.persistence.*;
+import jakarta.persistence.*; // JPA
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
- @Entity
+
+
+// JPA defines the specification(Şartname)
+// ORM -> Object Relational Mapping: Table to Object or Object to Table mapping
+// ORM tools(hibernate, Toplink) abstracts querying and gives us methods to use for manipulating the tables
+@Entity
 @Setter
 @Getter
 @NoArgsConstructor
@@ -16,6 +21,8 @@ import lombok.Setter;
      @Id
      @GeneratedValue(strategy = GenerationType.IDENTITY)
         private int id;
+
+     @Column(nullable = false, name = "name")
         private String name;
 
 }
