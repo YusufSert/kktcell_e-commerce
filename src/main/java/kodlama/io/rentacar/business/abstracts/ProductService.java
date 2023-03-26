@@ -1,6 +1,5 @@
 package kodlama.io.rentacar.business.abstracts;
 
-import kodlama.io.rentacar.entities.Brand;
 import kodlama.io.rentacar.entities.Product;
 
 import java.util.List;

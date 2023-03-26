@@ -1,7 +1,6 @@
 package kodlama.io.rentacar.business.concretes;
 
 import kodlama.io.rentacar.business.abstracts.ProductService;
-import kodlama.io.rentacar.entities.Brand;
 import kodlama.io.rentacar.entities.Product;
 import kodlama.io.rentacar.repository.ProductRepository;
 import lombok.AllArgsConstructor;
